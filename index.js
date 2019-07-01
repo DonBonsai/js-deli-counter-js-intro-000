@@ -6,7 +6,7 @@ function takeANumber(queue, customer){
 function nowServing (queue){
   if (queue.length > 0){
     return "Currently serving " + queue.slice(0,1) + "."
-    queue.unshift()
+    queue.shift()
   } else {
     return "There is nobody waiting to be served!"
   }
