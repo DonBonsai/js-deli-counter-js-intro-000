@@ -15,7 +15,7 @@ function nowServing (queue){
 function currentLine(queue){
   var lineup = []
   if (queue.length > 0 ){
-    for (var i = 0 ; i <= queue.length - 1 ' i++'){
+    for (var i = 0 ; i <= queue.length - 1 ; i++){
       lineup.push(`${i+1}. ${queue[i]}`)
     }
 
