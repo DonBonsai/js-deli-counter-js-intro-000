@@ -19,7 +19,7 @@ function currentLine(queue){
       lineup.push(` ${i+1}. ${queue[i]}`)
     }
 
-    return "The line is currently: " + lineup
+    return "The line is currently:" + lineup
   } else {
     return "The line is currently empty."
   }
